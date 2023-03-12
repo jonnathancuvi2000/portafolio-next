@@ -5,8 +5,6 @@ import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
     return (
-        // p-6 it was before instead of p-[50px]
-        // pt-24 this was not before 
         <div id='about' className='w-full md:h-screen px-[50px] flex items-center py-16 pt-24'> 
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
