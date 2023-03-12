@@ -57,8 +57,15 @@ const Projects = () => {
     },
   ]
 
+  // const componentes = [
+  //   <ProjectItem title='Propiedades' projectType='React JS' backgroundImg={propertyImg} projectUrl='/property' />
+  //   <ProjectItem title='Propiedades' projectType='Angular JS' backgroundImg={cryptoImg} projectUrl='/property' />
+  //   <ProjectItem title='Propiedades' projectType='Next JS' backgroundImg={netflixImg} projectUrl='/property' />
+  //   <ProjectItem title='Propiedades' projectType='Spring JS' backgroundImg={twitchImg} projectUrl='/property' />
+  // ]
 
   return (
+    // pt-[25px] this was not before
     <div id='projects' className='w-full pt-[25px]'>
       {/* before  it was py-16 in the next div */}
       <div className='max-w-[1240px] mx-auto px-[50px] pt-16'>

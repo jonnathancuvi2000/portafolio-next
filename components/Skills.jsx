@@ -34,6 +34,7 @@ const Skills = () => {
   }, [])
 
   return (
+    // I added the pb-14 before it was not there
     <div id='skills' className='w-full lg:h-screen p-2 px-[50px] pb-14'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='uppercase text-xt tracking-widest text-[#5651e5]'>Havilidades</p>
