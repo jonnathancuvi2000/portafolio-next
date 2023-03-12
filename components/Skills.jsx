@@ -1,6 +1,37 @@
 import React, { useEffect } from 'react'
 import Image from 'next/image';
 import CardSkills from './CardSkills'
+// images
+import JavaImg from '../public/assets/skills/java.png';
+import PythonImg from '../public/assets/skills/python.png';
+import CImg from '../public/assets/skills/c.png';
+import CsharpImg from '../public/assets/skills/csharp.png';
+
+import ReactImg from '../public/assets/skills/react.png';
+import VueImg from '../public/assets/skills/vue1.png';
+import NextJsImg from '../public/assets/skills/nextjs.png';
+import AngularImg from '../public/assets/skills/angular.png';
+import HtmlImg from '../public/assets/skills/html.png';
+import CssImg from '../public/assets/skills/css.png';
+import JSImg from '../public/assets/skills/javascript.png';
+import PPHImg from '../public/assets/skills/php.png';
+
+import NodeImg from '../public/assets/skills/node.png';
+import SpringImg from '../public/assets/skills/spring.png';
+import LaravelImg from '../public/assets/skills/laravel1.jpg';
+import NetImg from '../public/assets/skills/net.png';
+
+import MysqlImg from '../public/assets/skills/mysql.png';
+import OracleImg from '../public/assets/skills/oracle2.png';
+import PostgresqlImg from '../public/assets/skills/postgres.png';
+import CasandraImg from '../public/assets/skills/casandra.png';
+import FirebaseImg from '../public/assets/skills/firebase.png';
+import MongoImg from '../public/assets/skills/mongo.png';
+
+import FlutterImg from '../public/assets/skills/flutter1.png';
+import ReactNativeImg from '../public/assets/skills/rn1.png';
+
+
 
 const Skills = () => {
 
@@ -105,10 +136,10 @@ const Skills = () => {
             class="tab-panel  py-6 transition duration-300 w-ful"
           >
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 '>
-              <CardSkills url={'/../public/assets/skills/java.png'} name={'Java'} />
-              <CardSkills url={'/../public/assets/skills/python.png'} name={'Python'} />
-              <CardSkills url={'/../public/assets/skills/c.png'} name={'C'} />
-              <CardSkills url={'/../public/assets/skills/csharp.png'} name={'C#'} />
+              <CardSkills url={JavaImg} name={'Java'} />
+              <CardSkills url={PythonImg} name={'Python'} />
+              <CardSkills url={CImg} name={'C'} />
+              <CardSkills url={CsharpImg} name={'C#'} />
             </div>
           </div>
           <div
@@ -117,14 +148,14 @@ const Skills = () => {
             class="absolute top-0 invisible opacity-0 tab-panel  py-6 transition duration-300 w-full"
           >
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-              <CardSkills url={'/../public/assets/skills/react.png'} name={'React'} />
-              <CardSkills url={'/../public/assets/skills/vue1.png'} name={'Vue'} />
-              <CardSkills url={'/../public/assets/skills/nextjs.png'} name={'NextJS'} />
-              <CardSkills url={'/../public/assets/skills/angular.png'} name={'Angular'} />
-              <CardSkills url={'/../public/assets/skills/html.png'} name={'HTML'} />
-              <CardSkills url={'/../public/assets/skills/css.png'} name={'CSS'} />
-              <CardSkills url={'/../public/assets/skills/javascript.png'} name={'JavaScript'} />
-              <CardSkills url={'/../public/assets/skills/php.png'} name={'PHP'} />
+              <CardSkills url={ReactImg} name={'React'} />
+              <CardSkills url={VueImg} name={'Vue'} />
+              <CardSkills url={NextJsImg} name={'NextJS'} />
+              <CardSkills url={AngularImg} name={'Angular'} />
+              <CardSkills url={HtmlImg} name={'HTML'} />
+              <CardSkills url={CssImg} name={'CSS'} />
+              <CardSkills url={JSImg} name={'JavaScript'} />
+              <CardSkills url={PPHImg} name={'PHP'} />
             </div>
             <p></p>
           </div>
@@ -134,10 +165,10 @@ const Skills = () => {
             class="absolute top-0 invisible opacity-0 tab-panel  py-6 transition duration-300 w-full"
           >
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-              <CardSkills url={'/../public/assets/skills/node.png'} name={'Node'} />
-              <CardSkills url={'/../public/assets/skills/spring.png'} name={'Spring Boot'} />
-              <CardSkills url={'/../public/assets/skills/laravel1.jpg'} name={'Laravel'} />
-              <CardSkills url={'/../public/assets/skills/net.png'} name={'Asp .Net Core'} />
+              <CardSkills url={NodeImg} name={'Node'} />
+              <CardSkills url={SpringImg} name={'Spring Boot'} />
+              <CardSkills url={LaravelImg} name={'Laravel'} />
+              <CardSkills url={NetImg} name={'Asp .Net Core'} />
             </div>
           </div>
 
@@ -147,12 +178,12 @@ const Skills = () => {
             class="absolute top-0 invisible opacity-0 tab-panel  py-6 transition duration-300 w-full"
           >
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-              <CardSkills url={'/../public/assets/skills/mysql.png'} name={'MySql'} />
-              <CardSkills url={'/../public/assets/skills/oracle2.png'} name={'Oracle'} />
-              <CardSkills url={'/../public/assets/skills/postgres.png'} name={'PostgreSQL'} />
-              <CardSkills url={'/../public/assets/skills/casandra.png'} name={'Casandra'} />
-              <CardSkills url={'/../public/assets/skills/firebase.png'} name={'Firebase'} />
-              <CardSkills url={'/../public/assets/skills/mongo.png'} name={'MongoDB'} />
+              <CardSkills url={MysqlImg} name={'MySql'} />
+              <CardSkills url={OracleImg} name={'Oracle'} />
+              <CardSkills url={PostgresqlImg} name={'PostgreSQL'} />
+              <CardSkills url={CasandraImg} name={'Casandra'} />
+              <CardSkills url={FirebaseImg} name={'Firebase'} />
+              <CardSkills url={MongoImg} name={'MongoDB'} />
             </div>
           </div>
 
@@ -162,9 +193,8 @@ const Skills = () => {
             class="absolute top-0 invisible opacity-0 tab-panel  py-6 transition duration-300 w-full"
           >
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-              <CardSkills url={'/../public/assets/skills/flutter1.png'} name={'Flutter'} />
-
-              <CardSkills url={'/../public/assets/skills/rn1.png'} name={'React Native'} />
+              <CardSkills url={FlutterImg} name={'Flutter'} />
+              <CardSkills url={ReactNativeImg} name={'React Native'} />
             </div>
           </div>
         </div>
