@@ -34,28 +34,28 @@ const Projects = () => {
       title: "Propiedades",
       projectType: "React JS",
       image: propertyImg,
-      projectUrl: '/property'
+      projectUrl: '/Property'
     },
     {
       id: '2',
       title: "Propiedades",
       projectType: "Angular JS",
       image: netflixImg,
-      projectUrl: '/property'
+      projectUrl: '/Property'
     },
     {
       id: '3',
       title: "Propiedades",
       projectType: "Next JS",
       image: cryptoImg,
-      projectUrl: '/property'
+      projectUrl: '/Property'
     },
     {
       id: '4',
       title: "Propiedades",
       projectType: "React JS",
       image: twitchImg,
-      projectUrl: '/property'
+      projectUrl: '/Property'
     },
   ]
 

@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const property = () => {
+const Property = () => {
   const router = useRouter();
   const data = router.query;
   return (
@@ -72,4 +72,4 @@ const property = () => {
   )
 }
 
-export default property
+export default Property

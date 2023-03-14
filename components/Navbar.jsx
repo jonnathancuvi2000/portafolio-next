@@ -13,6 +13,7 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
   const router = useRouter();
+  console.log(router.route)
 
   useEffect(() => {
     // before it was "router.asPath" but I added this "router.route" instead of the frist one  
