@@ -20,7 +20,12 @@ const Navbar = () => {
     if (router.route === '/Property'){
       setNavBg('transparent')
       setLinkColor('#f8f8f8')
-    }else{
+    }
+    else if (router.route === '/property'){
+      setNavBg('transparent')
+      setLinkColor('#f8f8f8')
+    }
+    else{
       setNavBg('#ecf0f3')
       setLinkColor('#1f2937')
     }
