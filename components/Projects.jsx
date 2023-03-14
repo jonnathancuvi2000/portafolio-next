@@ -11,6 +11,8 @@ import { useState } from "react";
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
+import {data} from '../public/data'
+
 
 
 const Projects = () => {
@@ -57,6 +59,7 @@ const Projects = () => {
     },
   ]
 
+
   // const componentes = [
   //   <ProjectItem title='Propiedades' projectType='React JS' backgroundImg={propertyImg} projectUrl='/property' />
   //   <ProjectItem title='Propiedades' projectType='Angular JS' backgroundImg={cryptoImg} projectUrl='/property' />
@@ -84,10 +87,10 @@ const Projects = () => {
               onSwipeRight={handlePrevSlide}
               className="relative z-10 w-full h-full"
             >
-              {datos.map((dato, index) => {
+              {data.map((dato, index) => {
                 if (index === currentSlide) {
                   return (
-                    <ProjectItem key={dato.id} title={dato.title} projectType={dato.projectType} backgroundImg={dato.image} projectUrl={dato.projectUrl} />
+                    <ProjectItem key={dato.id} title={dato.title} projectType={dato.projectType} backgroundImg={dato.image} projectUrl={dato.projectUrl} pageData={dato.feachurePage} />
                   );
                 }
               })}
@@ -99,7 +102,7 @@ const Projects = () => {
           />
 
           <div className="relative flex justify-center p-2 pt-5">
-            {datos.map((_, index) => {
+            {data.map((_, index) => {
               return (
                 <div
                   className={

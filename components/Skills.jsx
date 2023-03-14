@@ -73,7 +73,7 @@ const Skills = () => {
         <div
           role="tablist"
           aria-label="tabs"
-          class="relative w-full max-sm:hidden mx-auto h-12 grid grid-cols-5 items-center px-[3px] rounded-full shadow-2xl shadow-900/20 transition font-normal"
+          class="relative w-full max-md:overflow-hidden mx-auto h-12 grid grid-cols-5 items-center px-[3px] rounded-full shadow-2xl shadow-900/20 transition font-normal"
         >
           {/* shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white */}
           {/* bg-white INSTEAD OF  from-[#5651e5] to-[#709dff] */}
@@ -129,6 +129,7 @@ const Skills = () => {
             <span class="text-gray-800">Mobile y Otros</span>
           </button>
         </div>
+        {/* max-sm:overflow-auto md:overflow-auto lg:h-full this was not before, it just was "relative" but I removed it at last, so I just add "relaive"*/}
         <div class="relative">
           <div
             role="tabpanel"
