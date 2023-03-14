@@ -17,7 +17,7 @@ const Navbar = () => {
 
   useEffect(() => {
     // before it was "router.asPath" but I added this "router.route" instead of the frist one  
-    if (router.route === '/property'){
+    if (router.route === '/Property'){
       setNavBg('transparent')
       setLinkColor('#f8f8f8')
     }else{

@@ -9,7 +9,7 @@ export const data = [
     title: "Propiedades",
     projectType: "Angular JS",
     image: propertyImg,
-    projectUrl: '/property',
+    projectUrl: '/Property',
     feachurePage: {
       porperties: ['Angular JS', 'Bootstrao', 'MySql'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
@@ -25,7 +25,7 @@ export const data = [
     title: "Propiedades",
     projectType: "Vue JS",
     image: netflixImg,
-    projectUrl: '/property',
+    projectUrl: '/Property',
     feachurePage: {
       porperties: ['Vue', 'JavaScrip', 'Asp. Net'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
@@ -42,7 +42,7 @@ export const data = [
     title: "Propiedades",
     projectType: "React JS",
     image: cryptoImg,
-    projectUrl: '/property',
+    projectUrl: '/Property',
     feachurePage: {
       porperties: ['React JS', 'Manga', 'Spring'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
@@ -58,7 +58,7 @@ export const data = [
     title: "Propiedades",
     projectType: "Html",
     image: twitchImg,
-    projectUrl: '/property',
+    projectUrl: '/Property',
     feachurePage: {
       porperties: ['Html', 'Tailwind', 'Css'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
