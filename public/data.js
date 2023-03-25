@@ -23,7 +23,7 @@ export const data = [
     projectUrl: '/Property',
     feachurePage: {
       porperties: ['React', 'Node'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      description: 'Página Web para realizar compras de prendas de vestir online, permite a los usuarios comprar todo tipo de ropa y realizar sus pagos de forma rápida y sencilla por medio de PayPal y PayPhone.',
       tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'PayPhone', 'PayPal'],
       demo: 'https://effervescent-treacle-8011f0.netlify.app',
       code: 'https://github.com/jonnathancuvi2000/ecommercer-client-react.git',
@@ -39,7 +39,7 @@ export const data = [
     projectUrl: '/Property',
     feachurePage: {
       porperties: ['Angular', 'Spring Boot'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      description: 'Sistema Web de evaluación de prácticas de Responsabilidad Social Empresarial (RSE). Por medio de este sistema los usuarios pueden conocer el estado de su organización respecto a aspectos de RSE utilizando reportes y dashboard.',
       tecnologies: ['Angular', 'Spring Boot', 'PostgreSQL', 'D3.js', 'Chart.js'],
       demo: '',
       code: 'https://github.com/jonnathan2019',
@@ -67,7 +67,7 @@ export const data = [
     projectUrl: '/Property',
     feachurePage: {
       porperties: ['Vue.js', 'Firebase'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      description: 'Página Web para la creación de blogs.',
       tecnologies: ['Vue.js', 'Firebase'],
       demo: 'https://statuesque-kleicha-c985bb.netlify.app/',
       code: 'https://github.com/jonnathancuvi2000/vue-firebase-blog.git',
@@ -83,9 +83,9 @@ export const data = [
     image: gestoremploy,
     projectUrl: '/Property',
     feachurePage: {
-      porperties: ['React', 'Node'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
-      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'D3.js', 'Chart.js'],
+      porperties: ['Vue.js', 'Laravel'],
+      description: 'Sistema Web para gestionar información del personal de una organización, mediante este sistema puedes cambiar roles, editar perfiles de forma rápida y sencilla.',
+      tecnologies: ['Vue.js', 'Laravel', 'MySQL'],
       demo: 'http://18.215.165.78/',
       code: 'https://github.com/jonnathancuvi2000/employeesLaravelVuejs.git',
       image: gestoremploy,
@@ -99,9 +99,9 @@ export const data = [
     image: adminecomerce,
     projectUrl: '/Property',
     feachurePage: {
-      porperties: ['Vue.js', 'Laravel'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
-      tecnologies: ['Vue.js', 'Laravel', 'MySQL', 'D3.js', 'Chart.js'],
+      porperties: ['React', 'Node'],
+      description: 'Sistema Web o panel admin dashboard, permite a los usuarios con respectivas credenciales gestionar la información de los diferentes productos y usuarios de una tienda online.',
+      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'D3.js', 'Chart.js'],
       demo: 'https://sweet-ganache-f63f94.netlify.app/',
       code: 'https://github.com/jonnathancuvi2000/ecommerce-admin-react.git',
       image: adminecomerce,
@@ -116,7 +116,7 @@ export const data = [
     projectUrl: '/Property',
     feachurePage: {
       porperties: ['React', 'Node'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      description: 'Sistema Web para comprar productos online, permitiendo realizar pagos a través de Stripe.',
       tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'PayPhone', 'Stripe'],
       demo: 'https://wonderful-faun-b66806.netlify.app/',
       code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
@@ -132,7 +132,7 @@ export const data = [
     projectUrl: '/Property',
     feachurePage: {
       porperties: ['Flutter', 'Firebase'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      description: 'Aplicación mobile desarrollada en Flutter para conocer los productos que ofrece determina tienda.',
       tecnologies: ['Flutter', 'Firebase', 'Dart', 'Stripe'],
       demo: '',
       code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
@@ -155,7 +155,7 @@ export const data = [
     projectUrl: '/Property',
     feachurePage: {
       porperties: ['Flutter','Dart'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      description: 'Aplicación Móvil la cual permite gestionar las tareas a realizar por un determinado usuario',
       tecnologies: ['Flutter', 'Dart'],
       demo: '',
       code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
@@ -175,7 +175,7 @@ export const data = [
     projectUrl: '/Property',
     feachurePage: {
       porperties: ['React Native','Go'],
-      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      description: 'Aplicación mobile desarrollada en React Native para conocer los productos que ofrece determina tienda.',
       tecnologies: ['React Native','Go'],
       demo: '',
       code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
