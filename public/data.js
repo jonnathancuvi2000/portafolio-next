@@ -2,71 +2,290 @@ import propertyImg from '../public/assets/projects/property.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import cryptoImg from '../public/assets/projects/crypto.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
+// new
+import ecommerceWeb from '../public/assets/projects/eccomerceweb.png'
+import blog from '../public/assets/projects/blog.png'
+import rse from '../public/assets/projects/rsedash.png'
+import gestoremploy from '../public/assets/projects/gestoremloy.png'
+import adminecomerce from '../public/assets/projects/admineccomerce.png'
+import shop from '../public/assets/projects/shop.png'
+import f_ecom from '../public/assets/projects/flutter_ecommerce/f_ecom_2.jpg'
+import flutter_gt from '../public/assets/projects/flutter_gestortareas/flutter_gt_1.jpg'
+import rn_shop from '../public/assets/projects/rn_shop/rn_shop_1.jpg'
+
 
 export const data = [
   {
     id: '1',
-    title: "Propiedades",
-    projectType: "Angular JS",
-    image: propertyImg,
+    title: "Ecommerce Web",
+    projectType: "Aplicación Web/Tienda de Ropa",
+    image: ecommerceWeb,
     projectUrl: '/Property',
     feachurePage: {
-      porperties: ['Angular JS', 'Bootstrao', 'MySql'],
+      porperties: ['React', 'Node'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
-      tecnologies: ['Angular', 'Mysql', 'Spring', 'Bootstrap'],
-      demo: '',
-      code: 'https://github.com/Jonathan20021/Jonathan20021',
-      image: propertyImg,
-      img: 'property.jpg'
+      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'PayPhone', 'PayPal'],
+      demo: 'https://effervescent-treacle-8011f0.netlify.app',
+      code: 'https://github.com/jonnathancuvi2000/ecommercer-client-react.git',
+      image: ecommerceWeb,
+      img: 'eccomerceweb.png'
     }
   },
   {
     id: '2',
-    title: "Propiedades",
-    projectType: "Vue JS",
-    image: netflixImg,
+    title: "Evaluación RSE",
+    projectType: "Aplicación Web",
+    image: rse,
     projectUrl: '/Property',
     feachurePage: {
-      porperties: ['Vue', 'JavaScrip', 'Asp. Net'],
+      porperties: ['Angular', 'Spring Boot'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
-      tecnologies: ['Vue', 'PostgreSql', 'Aps. Net'],
-      demo: 'https://www.amazon.com/',
-      code: 'https://github.com/Jonathan20021/Jonathan20021',
-      image: netflixImg,
-      img: 'netflix.jpg'
-
+      tecnologies: ['Angular', 'Spring Boot', 'PostgreSQL', 'D3.js', 'Chart.js'],
+      demo: '',
+      code: 'https://github.com/jonnathan2019',
+      image: rse,
+      img: 'rsedash.png',
+      galery: [
+        'rse_web/rse_1.png',
+        'rse_web/rse_2.png',
+        'rse_web/rse_3.png',
+        'rse_web/rse_4.png',
+        'rse_web/rse_5.png',
+        'rse_web/rse_6.png',
+        'rse_web/rse_8.png',
+        'rse_web/rse_9.png',
+        'rse_web/rse_10.png',
+        'rse_web/rse_11.png',
+      ],
     }
   },
   {
     id: '3',
-    title: "Propiedades",
-    projectType: "React JS",
-    image: cryptoImg,
+    title: "Blog",
+    projectType: "Aplicación Web",
+    image: blog,
     projectUrl: '/Property',
     feachurePage: {
-      porperties: ['React JS', 'Manga', 'Spring'],
+      porperties: ['Vue.js', 'Firebase'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
-      tecnologies: ['React', 'Manga', 'Node'],
-      demo: 'https://www.mangatigre.net/',
-      code: 'https://github.com/Jonathan20021/Jonathan20021',
-      image: cryptoImg,
-      img: 'crypto.jpg'
+      tecnologies: ['Vue.js', 'Firebase'],
+      demo: 'https://statuesque-kleicha-c985bb.netlify.app/',
+      code: 'https://github.com/jonnathancuvi2000/vue-firebase-blog.git',
+      image: blog,
+      img: 'blog.png'
+
     }
   },
   {
     id: '4',
-    title: "Propiedades",
-    projectType: "Html",
-    image: twitchImg,
+    title: "Gestor de Empleados",
+    projectType: "Aplicación Web",
+    image: gestoremploy,
     projectUrl: '/Property',
     feachurePage: {
-      porperties: ['Html', 'Tailwind', 'Css'],
+      porperties: ['React', 'Node'],
       description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
-      tecnologies: ['HTML', 'Casandra', 'Node', 'Css'],
+      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'D3.js', 'Chart.js'],
+      demo: 'http://18.215.165.78/',
+      code: 'https://github.com/jonnathancuvi2000/employeesLaravelVuejs.git',
+      image: gestoremploy,
+      img: 'gestoremloy.png'
+    }
+  },
+  {
+    id: '5',
+    title: "DashBoard/Ecommerce Web",
+    projectType: "Aplicación Web",
+    image: adminecomerce,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['Vue.js', 'Laravel'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['Vue.js', 'Laravel', 'MySQL', 'D3.js', 'Chart.js'],
+      demo: 'https://sweet-ganache-f63f94.netlify.app/',
+      code: 'https://github.com/jonnathancuvi2000/ecommerce-admin-react.git',
+      image: adminecomerce,
+      img: 'admineccomerce.png'
+    }
+  },
+  {
+    id: '6',
+    title: "Store Web",
+    projectType: "Aplicación Web",
+    image: shop,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['React', 'Node'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'PayPhone', 'Stripe'],
+      demo: 'https://wonderful-faun-b66806.netlify.app/',
+      code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
+      image: shop,
+      img: 'shop.png'
+    }
+  },
+  {
+    id: '7',
+    title: "Ecommerce App",
+    projectType: "Aplicación Mobile",
+    image: f_ecom,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['Flutter', 'Firebase'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['Flutter', 'Firebase', 'Dart', 'Stripe'],
       demo: '',
-      code: 'https://github.com/Jonathan20021/Jonathan20021',
-      image: twitchImg,
-      img: 'twitch.jpg'
+      code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
+      image: f_ecom,
+      img: 'flutter_ecommerce/f_ecom_2.jpg',
+      galery: [
+        'flutter_ecommerce/f_ecom_1.jpg',
+        'flutter_ecommerce/f_ecom_2.jpg',
+        'flutter_ecommerce/f_ecom_3.jpg',
+        'flutter_ecommerce/f_ecom_4.jpg',
+        'flutter_ecommerce/f_ecom_5.jpg',
+      ],
+    }
+  },
+  {
+    id: '8',
+    title: "Gestor de Tareas",
+    projectType: "Aplicación Mobile",
+    image: flutter_gt,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['Flutter','Dart'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['Flutter', 'Dart'],
+      demo: '',
+      code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
+      image: flutter_gt,
+      img: 'flutter_gestortareas/flutter_gt_1.jpg',
+      galery: [
+        'flutter_gestortareas/flutter_gt_1.jpg',
+        'flutter_gestortareas/flutter_gt_2.jpg',
+      ],
+    }
+  },
+  {
+    id: '9',
+    title: "Shop",
+    projectType: "Aplicación Mobile",
+    image: rn_shop,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['React Native','Go'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['React Native','Go'],
+      demo: '',
+      code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
+      image: rn_shop,
+      img: 'rn_shop/rn_shop_1.jpg',
+      galery: [
+        'rn_shop/rn_shop_1.jpg',
+        'rn_shop/rn_shop_2.jpg',
+        'rn_shop/rn_shop_3.jpg',
+      ],
+    }
+  },
+]
+
+export const datos = [
+  {
+    id: '1',
+    title: "Ecommerce Web",
+    projectType: "Aplicación Web/Tienda de Ropa",
+    image: ecommerceWeb,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['React', 'Node'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'PayPhone', 'PayPal'],
+      demo: 'https://effervescent-treacle-8011f0.netlify.app',
+      code: 'https://github.com/jonnathancuvi2000/ecommercer-client-react.git',
+      image: ecommerceWeb,
+      img: 'eccomerceweb.png'
+    }
+  },
+  {
+    id: '2',
+    title: "Evaluación RSE",
+    projectType: "Aplicación Web",
+    image: rse,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['Angular', 'Spring Boot'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['Angular', 'Spring Boot', 'PostgreSQL', 'D3.js', 'Chart.js'],
+      demo: '',
+      code: 'https://github.com/jonnathan2019',
+      image: rse,
+      img: 'rsedash.png'
+    }
+  },
+  {
+    id: '3',
+    title: "Blog",
+    projectType: "Aplicación Web",
+    image: blog,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['Vue.js', 'Firebase'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['Vue.js', 'Firebase'],
+      demo: 'https://statuesque-kleicha-c985bb.netlify.app/',
+      code: 'https://github.com/jonnathancuvi2000/vue-firebase-blog.git',
+      image: blog,
+      img: 'blog.png'
+
+    }
+  },
+  {
+    id: '4',
+    title: "Gestor de Empleados",
+    projectType: "Aplicación Web",
+    image: gestoremploy,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['React', 'Node'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'D3.js', 'Chart.js'],
+      demo: 'http://18.215.165.78/',
+      code: 'https://github.com/jonnathancuvi2000/employeesLaravelVuejs.git',
+      image: gestoremploy,
+      img: 'gestoremloy.png'
+    }
+  },
+  {
+    id: '5',
+    title: "DashBoard/Ecommerce Web",
+    projectType: "Aplicación Web",
+    image: adminecomerce,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['Vue.js', 'Laravel'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['Vue.js', 'Laravel', 'MySQL', 'D3.js', 'Chart.js'],
+      demo: 'https://sweet-ganache-f63f94.netlify.app/',
+      code: 'https://github.com/jonnathancuvi2000/ecommerce-admin-react.git',
+      image: adminecomerce,
+      img: 'admineccomerce.png'
+    }
+  },
+  {
+    id: '6',
+    title: "Store Web",
+    projectType: "Aplicación Web",
+    image: shop,
+    projectUrl: '/Property',
+    feachurePage: {
+      porperties: ['React', 'Node'],
+      description: 'This a a proyect that aloows the users to buy products, shcus us, pants, shoes, and any kinf of clouse, with this page you can page online or pay when you get the product in your house.',
+      tecnologies: ['React', 'Node', 'MondoDB', 'Bootstrap', 'PayPhone', 'Stripe'],
+      demo: 'https://wonderful-faun-b66806.netlify.app/',
+      code: 'https://github.com/jonnathancuvi2000/shop-backend-node.git',
+      image: shop,
+      img: 'shop.png'
     }
   },
 ]

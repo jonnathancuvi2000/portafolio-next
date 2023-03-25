@@ -19,53 +19,14 @@ const Projects = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const handleNextSlide = () => {
-    let newSlide = currentSlide === datos.length - 1 ? 0 : currentSlide + 1;
+    let newSlide = currentSlide === data.length - 1 ? 0 : currentSlide + 1;
     setCurrentSlide(newSlide);
   };
 
   const handlePrevSlide = () => {
-    let newSlide = currentSlide === 0 ? datos.length - 1 : currentSlide - 1;
+    let newSlide = currentSlide === 0 ? data.length - 1 : currentSlide - 1;
     setCurrentSlide(newSlide);
   };
-
-  const datos = [
-    {
-      id: '1',
-      title: "Propiedades",
-      projectType: "React JS",
-      image: propertyImg,
-      projectUrl: '/Property'
-    },
-    {
-      id: '2',
-      title: "Propiedades",
-      projectType: "Angular JS",
-      image: netflixImg,
-      projectUrl: '/Property'
-    },
-    {
-      id: '3',
-      title: "Propiedades",
-      projectType: "Next JS",
-      image: cryptoImg,
-      projectUrl: '/Property'
-    },
-    {
-      id: '4',
-      title: "Propiedades",
-      projectType: "React JS",
-      image: twitchImg,
-      projectUrl: '/Property'
-    },
-  ]
-
-
-  // const componentes = [
-  //   <ProjectItem title='Propiedades' projectType='React JS' backgroundImg={propertyImg} projectUrl='/property' />
-  //   <ProjectItem title='Propiedades' projectType='Angular JS' backgroundImg={cryptoImg} projectUrl='/property' />
-  //   <ProjectItem title='Propiedades' projectType='Next JS' backgroundImg={netflixImg} projectUrl='/property' />
-  //   <ProjectItem title='Propiedades' projectType='Spring JS' backgroundImg={twitchImg} projectUrl='/property' />
-  // ]
 
   return (
     // pt-[25px] this was not before

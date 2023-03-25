@@ -13,19 +13,19 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
   const router = useRouter();
-  console.log(router.route)
+  // console.log(router.route)
 
   useEffect(() => {
     // before it was "router.asPath" but I added this "router.route" instead of the frist one  
-    if (router.route === '/Property'){
+    if (router.route === '/Property') {
       setNavBg('transparent')
       setLinkColor('#f8f8f8')
     }
-    else if (router.route === '/property'){
+    else if (router.route === '/property') {
       setNavBg('transparent')
       setLinkColor('#f8f8f8')
     }
-    else{
+    else {
       setNavBg('#ecf0f3')
       setLinkColor('#1f2937')
     }
@@ -46,20 +46,49 @@ const Navbar = () => {
     window.addEventListener('scroll', handleShadow)
   }, [])
 
+  // I added this before 
+  useEffect(() => {
+    const handle = () => {
+      console.log(router.route)
+      if (router.route === '/Property') {
+        if (window.scrollY >= 90) {
+          setLinkColor('#1f2937')
+          setNavBg('#ecf0f3')
+        } else {
+          setLinkColor('#f8f8f8')
+          setNavBg('transparent')
+        }
+      }
+      else if (router.route === '/property') {
+        if (window.scrollY >= 90) {
+          setLinkColor('#1f2937')
+          setNavBg('#ecf0f3')
+        } else {
+          setLinkColor('#f8f8f8')
+          setNavBg('transparent')
+        }
+      }
+      else {
+        setLinkColor('#1f2937')
+      }
+    }
+    window.addEventListener('scroll', handle)
+  }, [router])
+
   return (
-    <div 
-    style={{backgroundColor: `${navBg}`}}
-    className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}
+    <div
+      style={{ backgroundColor: `${navBg}` }}
+      className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='/'>
           <Image src={LogoImg} alt='/' width='80' height='50' />
         </Link>
         <div>
-          <ul 
-          style={{color: `${linkColor}`}}
-           className='hidden md:flex'
-           >
+          <ul
+            style={{ color: `${linkColor}` }}
+            className='hidden md:flex'
+          >
             <Link href='/'><li className='ml-10 text-sm uppercase hover:border-b'>Home</li></Link>
             <Link href='/#about'><li className='ml-10 text-sm uppercase hover:border-b'>Acerca de</li></Link>
             <Link href='/#skills'><li className='ml-10 text-sm uppercase hover:border-b'>habilidades</li></Link>
@@ -110,18 +139,22 @@ const Navbar = () => {
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Ponerce en Contacto</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                {/* <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <FaLinkedinIn />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaGithub />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <AiOutlineMail />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                </div> */}
+                <Link href={'https://github.com/jonnathancuvi2000?tab=repositories'} rel="noopener noreferrer" target="_blank">
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaGithub />
+                  </div>
+                </Link>
+                <Link href='/#contact'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <AiOutlineMail />
+                  </div>
+                </Link>
+                {/* <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <BsFillPersonLinesFill />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

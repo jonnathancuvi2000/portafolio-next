@@ -31,6 +31,11 @@ import MongoImg from '../public/assets/skills/mongo.png';
 import FlutterImg from '../public/assets/skills/flutter1.png';
 import ReactNativeImg from '../public/assets/skills/rn1.png';
 
+import Chart from '../public/assets/skills/chart.jpeg';
+import Dthree from '../public/assets/skills/d3js.png';
+import Three from '../public/assets/skills/threejs.png';
+
+
 
 
 const Skills = () => {
@@ -196,6 +201,9 @@ const Skills = () => {
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
               <CardSkills url={FlutterImg} name={'Flutter'} />
               <CardSkills url={ReactNativeImg} name={'React Native'} />
+              <CardSkills url={Chart} name={'Chart.js'} />
+              <CardSkills url={Dthree} name={'D3.js'} />
+              <CardSkills url={Three} name={'Three.js'} />
             </div>
           </div>
         </div>
