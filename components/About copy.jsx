@@ -17,20 +17,8 @@ const About = () => {
                     <p className='uppercase text-xt tracking-widest text-[#5651e5]'>Acerca</p>
                     <h2 className='py-4'>Quien soy</h2>
                     <p className='py-2 text-gray-600'>\\ Jonnathan Cuvi - Ingeniero en Sitemas</p>
-                    <p className='py-2 text-gray-600'>
-                        Mi nombre completo es Jonnathan Darwin Cuvi Brito.
-                        Egresado de Ingeniería en Sistemas en la Universidad de Cuenca.
-                        Con experiencia en el desarrollo de aplicaciones web, tanto Front-End como Back-End.
-                        Además, poseo conocimientos en el desarrollo de aplicaciones móviles ya sea para IOS y Android.
-                        También cuento con experiencia en DataScience, Machine Learning.
-                    </p>
-                    <p className='py-2 text-gray-600'>
-                        Soy una persona responsable, capaz de trabajar bien tanto en un entorno de equipo como con iniciativa propia,
-                        además me adapto fácilmente a los cambios.
-                        También soy tenas por lo que continuó haciendo algo hasta que esté completamente terminado.
-                        En mi tiempo libre usualmente me gusta aprender nuevas a cosas relacionadas con la Informática,
-                        por lo que me consideró una persona autodidacta.
-                    </p>
+                    <p className='py-2 text-gray-600'>Mi nombre completo es Jonnathan Darwin Cuvi Brito, nací y crecí en Cuenca, Ecuador. Soy una persona responsable, capaz de trabajar bien tanto en un entorno de equipo como con iniciativa propia, además me adapto fácilmente a los cambios.</p>
+                    <p className='py-2 text-gray-600'>Soy tenas por lo que continuó haciendo algo hasta que esté completamente terminado. En mi tiempo libre usualmente me gusta aprender nuevas a cosas relacionadas con la Informática, por lo que me consideró una persona autodidacta.</p>
                     {/* <p className='py-2 text-gray-600'>Habilidad para trabajar en equipo y tenacidad para continuar haciendo algo hastaque esté completamente terminado.</p> */}
                     <Link href='/#projects'>
                         <p className='py-2 text-gray-600 underline cursor-pointer'>Revisa algunos de mis proyectos</p>

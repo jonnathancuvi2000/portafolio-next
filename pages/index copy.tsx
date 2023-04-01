@@ -8,7 +8,7 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Proyectos from '../components/Proyectos'
-import Studies from '@/components/Studies'
+import Studies from '../components/Studies'
 
 const inter = Inter({ subsets: ['latin'] })
 

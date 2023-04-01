@@ -91,6 +91,7 @@ const Navbar = () => {
           >
             <Link href='/'><li className='ml-10 text-sm uppercase hover:border-b'>Home</li></Link>
             <Link href='/#about'><li className='ml-10 text-sm uppercase hover:border-b'>Acerca de</li></Link>
+            <Link href='/#studies'><li className='ml-10 text-sm uppercase hover:border-b'>Estudios</li></Link>
             <Link href='/#skills'><li className='ml-10 text-sm uppercase hover:border-b'>habilidades</li></Link>
             <Link href='/#projects'><li className='ml-10 text-sm uppercase hover:border-b'>Proyectos</li></Link>
             <Link href='/#contact'><li className='ml-10 text-sm uppercase hover:border-b'>Contactar</li></Link>
